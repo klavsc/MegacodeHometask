@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('binary/home');
 });
+
+Route::get('sign-up', 'SignUpController@signUp');
+Route::post('sign-up',
+    ['as'=>'signup.store','uses'=>'SignUpController@signUpPost']);
