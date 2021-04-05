@@ -1,4 +1,4 @@
-##A simple webpage with a form for signup and a responsive design both for desktop and mobile
+## A simple webpage with a form for signup and a responsive design both for desktop and mobile
 
 ![](gif3.gif)
 
